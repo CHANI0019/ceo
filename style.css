@@ -289,7 +289,7 @@ section.coinpurpose::after{
 }
 /* coinpurpose-inner 사각형 꾸미기 */
 section.coinpurpose .coinpurpose-inner{
-  width:27%;
+  width:30%;
   margin-right:5%;
   padding:1rem 1rem 1.5rem 1rem;
   float:left;
