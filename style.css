@@ -64,7 +64,7 @@ main{
   width:100%;
   height:100vh;
   color:white;
-  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./images/me.jpg') center center/cover no-repeat;
   position: relative;
   overflow: hidden;
   display:flex;
@@ -113,19 +113,7 @@ main p strong:nth-of-type(6) { animation-delay: 5.5s; }
     transform: translateY(0);
   }
 }
-.video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-.video-background video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 main button.download{
   background-color:transparent;
   border:3px solid white;
